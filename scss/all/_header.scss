@@ -1,5 +1,7 @@
 header {
   padding: 16px;
+  padding-bottom: 96px;
+  background-color: white;
 }
 .logo {
   color: var(--Gray-900, #111827);
@@ -59,4 +61,56 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+}
+.btn-mode {
+  display: block;
+}
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    height: 42px;
+  }
+  .nav > ul > .li,
+  .mode-icon,
+  .cv-btn {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+  .btn-mode {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav > ul > .li,
+  .mode-icon,
+  .cv-btn {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+  .btn-mode {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .li a {
+    font-size: 10px;
+  }
+  .cv-btn {
+    font-size: 10px;
+  }
 }

@@ -1,14 +1,13 @@
 #experience {
-  background: var(--Gray-50, #f9fafb);
+  background: white;
   padding-bottom: 96px;
- 
 }
 .experience-btn-wrapper {
   display: flex;
   justify-content: center;
 }
 .experience-btn {
-  margin-top: 96px;
+  padding-top: 96px;
   display: flex;
   padding: 4px 20px;
   justify-content: center;
@@ -28,13 +27,13 @@
 }
 
 .card {
-    margin-top: 48px;
+  margin-top: 48px;
   margin-left: 165px;
   width: 896px;
   padding: 32px;
 
   border-radius: 12px;
-  background: var(--Gray-Default, #fff);
+
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06),
     0px 4px 3px 0px rgba(0, 0, 0, 0.07);
 }
@@ -64,9 +63,9 @@
   }
 }
 .card-ul {
-    margin-top: 16px;
-    margin-left: 240px;
- 
+  margin-top: 16px;
+  margin-left: 240px;
+
   li {
     width: 384px;
     color: var(--Gray-600, #4b5563);
@@ -77,5 +76,68 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .card {
+    margin-top: 28px;
+    margin-left: 5px;
+    width: 719px;
+    padding: 20px;
+    .card-tittle {
+      display: flex;
+      gap: 16px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-ul li {
+      width: 719px;
+
+      margin-left: -220px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    margin-top: 58px;
+    margin-left: 5px;
+    width: 520px;
+    padding: 20px;
+    .card-tittle {
+      display: flex;
+      gap: 16px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-ul li {
+      width: 500px;
+
+      margin-left: -220px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    margin-top: 28px;
+    margin-left: 5px;
+    width: 320px;
+    padding: 20px;
+    .card-tittle {
+      display: flex;
+      gap: 16px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-ul li {
+      width: 300px;
+
+      margin-left: -220px;
+    }
   }
 }

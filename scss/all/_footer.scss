@@ -1,10 +1,16 @@
-footer{
-    background: var(--Gray-50, #F9FAFB);
-    width: 100%;
-    padding: 24px 0px;
-    .footer-wrapper {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;}
+footer {
+  background: white;
+  width: 100%;
+  padding: 24px 0px;
+  .footer-wrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer-wrapper p {
+    font-size: 10px;
+  }
 }

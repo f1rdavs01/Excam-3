@@ -74,14 +74,16 @@
       <div class="container">
         <nav class="nav">
           <h1 class="logo">Firdavs-DEV</h1>
-          <ul>
-            <li class="li"><a href="#">About</a></li>
-            <li class="li"><a href="#">Work</a></li>
-            <li class="li"><a href="#">Testimonials</a></li>
-            <li class="li"><a href="#">Contact</a></li>
+          <ul class="header-ul">
+            <li class="li"><a href="#about">About</a></li>
+            <li class="li"><a href="#work">Work</a></li>
+            <li class="li"><a href="#testimonials">Testimonials</a></li>
+            <li class="li"><a href="#contact">Contact</a></li>
             <li class="li">|</li>
-            <img src="./assets/images/Icon_sun.svg" alt="" />
+            <img class="btn-mode" src="./assets/images/Icon_sun.svg" alt="" />
             <button class="cv-btn">Download CV</button>
+
+            <img class="menu" src="./assets/images/menu.svg" alt="" />
           </ul>
         </nav>
         <div class="hed-btn"></div>
@@ -210,74 +212,71 @@
             <p>The skills, tools and technologies I am really good at:</p>
           </div>
           <div class="icon-wrapper">
-            <ul class="icon-ul">
-              <li>
-                <img src="./assets/images/icon-javscript.svg" alt="" />
-                <p>Javascript</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-typescript.svg" alt="" />
-                <p>Typescript</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-react.svg" alt="" />
-                <p>React</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-nextjs.svg" alt="" />
-                <p>Nextjs</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-nodejs.svg" alt="" />
-                <p>Node.js</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-express.svg" alt="" />
-                <p>Express.js</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-nest.svg" alt="" />
-                <p>Nest.js</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-socket.svg" alt="" />
-                <p>Socket.io</p>
-              </li>
-            </ul>
-            <ul class="icon-ul">
-              <li>
-                <img src="./assets/images/icon-postgresql.svg" alt="" />
-                <p>PostgreSQL</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-mongodb.svg" alt="" />
-                <p>MongoDB</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-sass.svg" alt="" />
-                <p>Sacc/Scss</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-tailwindcss.svg" alt="" />
-                <p>Tailwindcss</p>
-              </li>
-              <li>
-                <img src="./assets/images/image 7.png" alt="" />
-                <p>Laravel (PHP)</p>
-              </li>
-              <li>
-                <img src="./assets/images/image 5.png" alt="" />
-                <p>Vue.js</p>
-              </li>
-              <li>
-                <img src="./assets/images/image 6.png" alt="" />
-                <p>Nuxt.js</p>
-              </li>
-              <li>
-                <img src="./assets/images/icon-git.svg" alt="" />
-                <p>Git</p>
-              </li>
-            </ul>
+            <div class="icon">
+              <img src="./assets/images/icon-javscript.svg" alt="" />
+              <p>Javascript</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-typescript.svg" alt="" />
+              <p>Typescript</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-react.svg" alt="" />
+              <p>React</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-nextjs.svg" alt="" />
+              <p>Nextjs</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-nodejs.svg" alt="" />
+              <p>Node.js</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-express.svg" alt="" />
+              <p>Express.js</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-nest.svg" alt="" />
+              <p>Nest.js</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-socket.svg" alt="" />
+              <p>Socket.io</p>
+            </div>
+
+            <div class="icon">
+              <img src="./assets/images/icon-postgresql.svg" alt="" />
+              <p>PostgreSQL</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-mongodb.svg" alt="" />
+              <p>MongoDB</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-sass.svg" alt="" />
+              <p>Sacc/Scss</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-tailwindcss.svg" alt="" />
+              <p>Tailwindcss</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/image 7.png" alt="" />
+              <p>Laravel (PHP)</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/image 5.png" alt="" />
+              <p>Vue.js</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/image 6.png" alt="" />
+              <p>Nuxt.js</p>
+            </div>
+            <div class="icon">
+              <img src="./assets/images/icon-git.svg" alt="" />
+              <p>Git</p>
+            </div>
           </div>
         </div>
       </section>
@@ -359,12 +358,12 @@
             </div>
             <div class="uzum-right">
               <h3>Uzum.uz</h3>
-              <p class="tittle-p">
+              <h5>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
                 ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                 curae.
-              </p>
+              </h5>
               <div class="languages-wrapper">
                 <div class="languages"><p>Vue.js</p></div>
                 <div class="languages"><p>Nuxt.js</p></div>
@@ -388,12 +387,12 @@
           <div class="uzum-wrapper">
             <div class="uzum-right">
               <h3>Uzum nasiya</h3>
-              <p class="tittle-p">
+              <h5>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
                 ipsum primis in faucibus orci luctus et ultrices posuere cubilia
                 curae.
-              </p>
+              </h5>
               <div class="languages-wrapper">
                 <div class="languages"><p>Vue.js</p></div>
                 <div class="languages"><p>Nuxt.js</p></div>
@@ -423,12 +422,15 @@
             </div>
             <div class="uzum-right">
               <h3>Cambly.com</h3>
-              <p class="tittle-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
-                ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                curae.
-              </p>
+              <div class="tittle-p">
+                <h5>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
+                  ipsum primis in faucibus orci luctus et ultrices posuere
+                  cubilia curae.
+                </h5>
+              </div>
+
               <div class="languages-wrapper">
                 <div class="languages"><p>Vue.js</p></div>
                 <div class="languages"><p>Nuxt.js</p></div>
@@ -568,6 +570,53 @@
               <div class="swiper-pagination"></div>
             </div>
           </div>
+          <!--  -->
+          <div class="cards-resp-wrapper">
+            <div class="test-card">
+              <div class="test-user">
+                <img src="./assets/images/testuser.svg" alt="" />
+              </div>
+              <p>
+                “Job well done! I am really impressed. He is very very good at
+                what he does:) I would recommend Sagar and will rehire in the
+                future for Frontend development.”
+              </p>
+              <div class="test-card-tittle">
+                <h3>Dilshod Buymurodov</h3>
+                <h5>Founder - Paymart.uz</h5>
+              </div>
+            </div>
+            <div class="test-card">
+              <div class="test-user">
+                <img src="./assets/images/testuser.svg" alt="" />
+              </div>
+              <p>
+                “Job well done! I am really impressed. He is very very good at
+                what he does:) I would recommend Sagar and will rehire in the
+                future for Frontend development.”
+              </p>
+              <div class="test-card-tittle">
+                <h3>Dilshod Buymurodov</h3>
+                <h5>Founder - Paymart.uz</h5>
+              </div>
+            </div>
+            <div class="test-card">
+              <div class="test-user">
+                <img src="./assets/images/testuser.svg" alt="" />
+              </div>
+              <p>
+                “Job well done! I am really impressed. He is very very good at
+                what he does:) I would recommend Sagar and will rehire in the
+                future for Frontend development.”
+              </p>
+              <div class="test-card-tittle">
+                <h3>Dilshod Buymurodov</h3>
+                <h5>Founder - Paymart.uz</h5>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
         </div>
       </section>
       <!---------------------- Testimonials section end- ------------------->

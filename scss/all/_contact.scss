@@ -1,6 +1,6 @@
-#contact{
-    padding-bottom: 96px;
-    background-color: white;
+#contact {
+  padding-bottom: 96px;
+  background-color: white;
 }
 .buxoriy {
   max-width: 576px;
@@ -47,7 +47,36 @@
     font-weight: 400;
     line-height: 24px; /* 150% */
   }
-  .contact-end-svg{
+  .contact-end-svg {
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact-gmail {
+    
+    gap: 5px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    a {
+      
+      font-size: 32px;
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .contact-gmail {
+    width: 320px;
+    gap: 5px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    a {
+      
+      font-size: 20px;
+    }
   }
 }
