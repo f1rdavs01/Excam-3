@@ -1,0 +1,53 @@
+#contact{
+    padding-bottom: 96px;
+    background-color: white;
+}
+.buxoriy {
+  max-width: 576px;
+  align-self: stretch;
+}
+
+.contact-wrapper {
+  margin-top: 70px;
+}
+.contact-gmail {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--Gray-900, #111827);
+    text-align: center;
+
+    /* Heading/H2/Semi Bold - Desktop */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: -0.72px;
+  }
+}
+.contact-end {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: var(--Gray-600, #4b5563);
+
+    /* Body2/Normal - All */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  .contact-end-svg{
+    margin-top: 20px;
+  }
+}

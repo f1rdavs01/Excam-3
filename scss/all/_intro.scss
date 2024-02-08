@@ -1,0 +1,81 @@
+.intro_wrapper {
+  margin-top: 96px;
+  display: flex;
+  gap: 128px;
+  margin-bottom: 106px;
+  .intro_left {
+    h1 {
+      color: var(--Gray-900, #111827);
+
+      /* Heading/H1/Bold - Desktop */
+      font-family: Inter;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72px; /* 120% */
+      letter-spacing: -1.2px;
+    }
+    p {
+      width: 768px;
+      color: var(--Gray-600, #4b5563);
+
+      /* Body2/Normal - All */
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+  }
+}
+.green-sircule {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--Emerald-500, #10b981);
+}
+
+.adress {
+  margin-top: 48px;
+  .adress-1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .adress-2 {
+    margin-top: 8px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+.social {
+  margin-top: 48px;
+  display: flex;
+  gap: 10px;
+}
+
+.me-img {
+  width: 280px;
+  height: 350px;
+  flex-shrink: 0;
+  border: 8px solid var(--Gray-Default, #fff);
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: 3px 1px 0px -5px rgba(229, 231, 235, 0.55);
+  -webkit-box-shadow: 3px 1px 0px -5px rgba(229, 231, 235, 0.55);
+  -moz-box-shadow: 3px 1px 0px -5px rgba(229, 231, 235, 0.55);
+
+  padding: 5px;
+  filter: grayscale(1);
+
+  &:hover {
+    transition: all 0.2s ease;
+    box-shadow: 32px 35px 5px 3px rgba(213, 218, 222, 1);
+    -webkit-box-shadow: 32px 35px 5px 3px rgba(213, 218, 222, 1);
+    -moz-box-shadow: 32px 35px 5px 3px rgba(213, 218, 222, 1);
+    filter: grayscale(0);
+  }
+}

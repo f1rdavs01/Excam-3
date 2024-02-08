@@ -1,0 +1,89 @@
+#about {
+  background: var(--Gray-50, #f9fafb);
+  .about-me_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+  }
+  .about-me {
+    margin-top: 96px;
+    margin-bottom: 48px;
+    p {
+      color: var(--Gray-600, #4b5563);
+
+      /* Body3/Medium - All */
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px; /* 142.857% */
+    }
+    display: flex;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--Gray-200, #e5e7eb);
+    width: 105px;
+    height: 28px;
+  }
+}
+.about_wrapper {
+  display: flex;
+  gap: 280px;
+  
+  .about-img {
+    margin-top: 48px;
+    margin-left: 40px;
+    width: 320px;
+    height: 390px;
+    flex-shrink: 0;
+    border: 8px solid var(--Gray-50, #f9fafb);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+      box-shadow: 3px 1px 0px -5px rgba(229, 231, 235, 0.55);
+           -webkit-box-shadow: 3px 1px 0px -5px rgba(229, 231, 235, 0.55);
+           -moz-box-shadow: 3px 1px 0px -5px rgba(229, 231, 235, 0.55);
+           padding: 5px;
+           filter: grayscale(1);
+       
+           &:hover {
+             transition: all 0.2s ease;
+             -webkit-box-shadow: -24px 24px 8px 0px rgba(34, 60, 80, 0.2);
+             -moz-box-shadow: -24px 24px 8px 0px rgba(34, 60, 80, 0.2);
+             box-shadow: -24px 24px 8px 0px rgba(34, 60, 80, 0.2);
+             filter: grayscale(0);
+           }
+  }
+}
+.about_right{
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+.about-p p {
+  margin-top: 16px;
+  width: 584px;
+  align-self: stretch;
+  color: var(--Gray-600, #4b5563);
+
+  /* Body2/Normal - All */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.about-p-end {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  p {
+    color: var(--Gray-600, #4b5563);
+
+    /* Body2/Normal - All */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+}
